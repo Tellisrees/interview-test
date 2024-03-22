@@ -4,6 +4,7 @@
 - The original implementation does not deposit any logs to AWS for future perusal.  As such, it would be difficult to diagnose potential issues.  Using CodeBuild provides easy integration with CloudWatch which can deposit logs to a dedicated S3 bucket.
 - Although it is possible to interact with AWS from a GitHub actions runner via Boto, this requires storing AWS credentials as GitHub secrets, which increases the attack surface.  As such it is more secure to use CodeBuild which does not require that any secrets are stored in GitHub. 
 - Expanded gitignore in the main repo.
+- Suggest that a single PAT is used to reduce chance of leak
 
 
 
