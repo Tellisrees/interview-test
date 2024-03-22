@@ -6,4 +6,4 @@
 - I divide the documentation up according to use case: 1) user guide for users that simply wish to make use of the service without necessarily understanding the details of its implementation; 2) infrastructure for other contributors to the package/supporting aws components.
 
 ## If I had more time
-- 
+- Use mkdocstrings to create class reference pages.
