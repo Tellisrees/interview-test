@@ -1,0 +1,14 @@
+name: repo_1
+description: a simple repo
+private: true
+auto_init: true
+# ...
+# etc
+# ...
+gitignore:
+  - .txt
+  - .idea
+  - __pycache__/
+default_branch: main
+codeowners: 
+  - Tom Ellis-Rees

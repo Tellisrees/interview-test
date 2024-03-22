@@ -1,1 +1,1 @@
-from .hello_world import HelloWorld
+from .configure_repo import RepoConfigurer
