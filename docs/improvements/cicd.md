@@ -6,6 +6,7 @@
 ## If I had more time
 - I would have set up Tox so that tests could be run on multiple python versions
 - I would have set up a pre-commit hook to run black on source code
+- I would have developed an alerting method in the RepoConfigurer class that would automatically send a message to relevant users via SES/SNS/Chatbot when a repo was un/successfully created/modified.  This makes debugging easier (users don't have to search in S3 logs) and all members of teams related to particular repos are notified (i.e. not just the person that submitted the config file) 
 
 # To Do
 - On pull request - tests for Black
