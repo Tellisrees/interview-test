@@ -11,5 +11,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: pip install -e ./ukhsa_github[test]
+      - run: pip install ./ukhsa_github[test]
       - run: pytest ./tests/test_ukhsa_github.py
