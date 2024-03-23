@@ -10,5 +10,3 @@
 - Set up a dockerfile so that the UKHSA GitHub package can easily be converted into an image to be used for other projects.
 - Version release code.
 
-# To Do
-- 

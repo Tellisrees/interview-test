@@ -14,5 +14,3 @@
 - If other areas of the codebase were considered sensitive, could migrate to S3 (encrypt at rest) and have CodeBuild pull in as and when needed.
 - It doesn't seem possible to make creating a repo and e.g. adding a gitignore file a single atomic action, meaning there is a possibility for repos to be created without adequate security measures in place.  I would implement a second class (RepoAuditor) to check that repos were following best practices at the end of the creation process, and only then send success messages to users.  The RepoAuditor could also be run on a schedule to collect information on all of the organisation's repos and collate findings in a single report.
 
-# To Do
-- 
