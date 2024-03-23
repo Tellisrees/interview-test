@@ -1,3 +1,6 @@
 site_name: UKHSA Interview Project
 theme:
   name: material
+
+plugins:
+  - drawio_file
