@@ -3,4 +3,6 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Hello, World!"
+      - pip install -r requirements.txt
+      - pip install ./ukhsa_github
+      - python3 main.py
